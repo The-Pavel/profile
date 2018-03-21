@@ -1,0 +1,93 @@
+<!-- TODO: add HTML content to your profile -->
+<!-- JavaScript can be placed at the bottom of HTML file to apply the effects -->
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- head contains all intelligence of the page; behind the scenes as well as metadata for google and other websites to fetch when displaying your site-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <title>MY PROFILE</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id="sidebar">
+  <ul>
+    <li><a href="#summary">Summary</a></li>
+    <li><a href="#favorite-movies">Ref's</a></li>
+    <li><a href="#help">Info</a></li>
+    <li><a href="https://www.z0r.de">Weirdness</a></li>
+  </ul>
+</div>
+
+  <!-- title presents are from h1 to h6 -->
+  <div id="page-content">
+    <div id="summary" class="card text-center">
+      <img class="avatar-lg" src="images/profile.jpg" alt="Profile Image">
+      <h1>Pavel Liser</h1>
+      <h2>COO @ Grow HR</h2>
+      <p>After 3 years of hard work in Recruitment <em>it's time for a change</em>. My mission: <strong>bring addictive content to your screen.</strong></p>
+      <a class="red-button" href="www.lewagon.com">See for yourself</a>
+    </div>
+
+    <div class="card text-center">
+    <!-- lines 32 to 39 in style.css is a way to inline a list without bootstrap -->
+      <ul class="text-center">
+        <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i><br>Facebook</a></li>
+        <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i><br>Twitter</a></li>
+        <li><a href="https://www.github.com"><i class="fa fa-github"></i><br>GitHub</a></li>
+      </ul>
+    </div>
+
+   <!-- you can write emmet shortcuts for copying multiple same lines; for example ul>(li>a>i.fa)*3 and press tab -->
+    <div id="favorite-movies" class="card text-center">
+      <h2>Best 90's References</h2>
+
+      <table>
+        <tbody>
+          <tr class="row">
+            <td>
+              <img class="shadowed_image" src="images/simpsons.gif" alt="eatmyshorts">
+            </td>
+            <td>
+              <h3>Eat My Shorts!</h3>
+              <p>We all love bart for this original and sophisticated expression of disagreement.</p>
+            </td>
+          </tr>
+          <tr class="row">
+            <td>
+              <img class="shadowed_image" src="images/damn.gif" alt="damn">
+            </td>
+            <td>
+              <h3>DAAAAAAMMMNNN</h3>
+              <p>It's perfect for those times when you can't believe what just happened. This one's all about gettin' dramatic.</p>
+            </td>
+          </tr>
+          <tr class="row">
+            <td>
+              <img class="shadowed_image" src="images/spice.gif" alt="spice">
+            </td>
+            <td>
+              <h3>ZIG-A ZIG-AH</h3>
+              <p>This song is forever in our hearts. Not just for the girl power vibes and catchy beat, but also because of the phrase we don't understand.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="help" class="card text-center">
+      <h2>About This Page</h2>
+      <p>Check out more of this awesomeness in <a href="https://www.growhr.com">this link!</a></p>
+      <ul class="text-center">
+        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+        <li><a href="#"><i class="fa fa-share"></i></a></li>
+        <li><a href="#"><i class="fa fa-star"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>

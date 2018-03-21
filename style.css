@@ -1,0 +1,120 @@
+/* TODO: design your profile with CSS */
+h1, h2, h3 {
+  font-family: 'Faster One', cursive;
+  color: rgb(30,30,100);
+}
+
+body {
+  background-color: rgb(220,220,220);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: rgb(15,15,15);
+  background-image: url("https://cdn-images-1.medium.com/max/1600/1*XZrU5omVCZPZXuYv2AZnog.jpeg");
+  opacity: 0.92;
+}
+
+img {
+  max-width: 150px;
+}
+
+.avatar-lg {
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.text-center li {
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.red-button {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+.card {
+  margin: 0 auto;
+  width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.shadowed_image {
+  box-shadow: 3px 3px 3px grey;
+  margin-right: 10px;
+}
+
+#page-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#page-content li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(100,100,100)
+}
+
+a:hover {
+  color: blue;
+}
+
+@media (max-width: 800px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+@media (max-width: 600px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
+@media (max-width: 400px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 200px;
+  }
+}
+/* sidebar stuff */
+
+#sidebar {
+  position: fixed;
+  width: 90px;
+  height: 300px;
+  left: 0;
+  bottom: 25em;
+  background-color: rgb(20,180,20);
+  text-align: center;
+  border-radius: 0 10px 10px 0;
+}
+
+#sidebar a {
+  color: white;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#sidebar li {
+  margin-top: 40px;
+}
+
+#page-content {
+  margin-left: 300px;
+  margin: 0 auto;
+}
